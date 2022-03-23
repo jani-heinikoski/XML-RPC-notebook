@@ -4,5 +4,6 @@ Demo video: https://lut-my.sharepoint.com/:v:/g/personal/jani_heinikoski_student
 Usage:
 1. First start the server with $ python server.py
 2. Then start the client program with $ python client.py
+
 Additional notes:
 - Tested on x86-64 Windows 10 Home v10.0.19044 Build 19044 using Python 3.9.2 but it should be a platform independent solution as long as you have Python 3.9.2
