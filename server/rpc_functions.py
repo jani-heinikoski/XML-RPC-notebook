@@ -9,6 +9,14 @@ class RPCFunctions:
     @staticmethod
     def add_note(topic: str, note_title: str, content: str, timestamp: str) -> None:
         if (topic and note_title and content and timestamp):
-            dao = DAO("db_example.xml")
+            dao = DAO()
             dao.save_note(topic, note_title, content, timestamp)
-    
+    @staticmethod
+    def add_information_to_topic(search_terms: str, topic: str) -> bool:
+        if (search_terms and topic):
+            dao = DAO()
+            return dao.add_info_to_topic(search_terms, topic)
+        return False
+    @staticmethod
+    def fetch_notes(topic: str = None) -> str:
+        return DAO().fetch_notes(topic)
