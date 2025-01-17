@@ -1,6 +1,6 @@
 # XML-RPC-notebook
 Repository containing everything required for the Assignment 2 of the LUT course Distributed Systems, 2022.
-Demo video: https://lut-my.sharepoint.com/:v:/g/personal/jani_heinikoski_student_lut_fi/Edp09x0OFu9Jvt_aTEZA-IcBm9hgLwt3To26VmIz19bLGQ?e=aI0OZj
+[Demo video can be found here](https://lut-my.sharepoint.com/:v:/g/personal/jani_heinikoski_student_lut_fi/Edp09x0OFu9Jvt_aTEZA-IcBm9hgLwt3To26VmIz19bLGQ?e=aI0OZj)
 
 Usage:
 1. First start the server with $ python server.py
